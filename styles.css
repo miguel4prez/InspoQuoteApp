@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Mukta:wght@200&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(194,180,217,1) 65%, rgba(148,187,233,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: solid 2px black; */
+    max-width: 900px; 
+    width: 90%;
+    height: 1000px;
+    margin: 0 auto; 
+    padding: 0 20px 150px 20px;
+    margin-top: 50px; 
+}
+
+
+img {
+    height: 250px;
+    width: 200px;
+    border: none;
+    margin-bottom: 50px;
+}
+
+.quote-btn {
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    width: 200px;
+    font-size: 20px;
+    font-family: 'Archivo Narrow', sans-serif;
+    cursor: pointer;
+    margin-bottom: 70px;
+}
+
+.quote-btn:hover { 
+    /* width: 210px;
+    height: 80px; */
+    /* font-size: 25px; */
+    background-color: rgb(236, 236, 239);
+    cursor: pointer;
+}
+
+.quote-btn:active{
+    background-color: rgb(244, 223, 255);
+}
+
+
+#quote {
+    font-size: 20px;
+    width: 600px;
+    font-weight: bold;
+    font-family: 'Mukta', sans-serif;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#author{
+    font-size: 20px;
+    width: 600px;
+    font-family: 'Mukta', sans-serif;
+    margin-top: 25px;
+    font-style: italic;
+    font-weight: 800;
+    text-align: center;
+    border-radius: 15px;
+}
+
